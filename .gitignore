@@ -1,0 +1,32 @@
+# Arquivos e pastas geradas pelo MkDocs
+site/
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de logs
+*.log
+
+# Pastas e arquivos do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Ambientes virtuais
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Configuração de IDEs
+.vscode/
+.idea/
+
+# Arquivos de build ou cache
+*.egg-info/
+.eggs/
+*.sqlite3

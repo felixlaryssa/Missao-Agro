@@ -4,19 +4,15 @@ site_url: https://github.com/felixlaryssa/Missao-Agro
 repo_url: https://github.com/felixlaryssa/Missao-Agro
 repo_name: GitHub
 
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/felixlaryssa/Missao-Agro
-
 theme:
   name: material
+  logo: images/logoUnb.svg   
   palette:
 
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: teal       # verde água
+      primary: teal
       accent: cyan
       toggle:
         icon: material/brightness-7
@@ -25,7 +21,7 @@ theme:
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: teal       # verde água
+      primary: teal
       accent: cyan
       toggle:
         icon: material/brightness-4
@@ -37,6 +33,11 @@ theme:
     - navigation.instant
     - navigation.instant.progress
     - navigation.top
+
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/felixlaryssa/Missao-Agro
 
 nav:
   - Apresentação: index.md
