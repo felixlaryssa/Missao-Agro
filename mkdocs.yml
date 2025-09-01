@@ -1,0 +1,42 @@
+site_name: Missão AGRO
+site_url: https://github.com/felixlaryssa/Missao-Agro
+
+repo_url: https://github.com/felixlaryssa/Missao-Agro
+repo_name: GitHub
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/felixlaryssa/Missao-Agro
+
+theme:
+  name: material
+  palette:
+
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal       # verde água
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Mudar para o modo escuro
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal       # verde água
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Mudar para o modo claro
+
+  features:
+    - navigation.tabs
+    - content.code.copy
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.top
+
+nav:
+  - Apresentação: index.md
