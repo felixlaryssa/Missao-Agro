@@ -41,3 +41,13 @@ extra:
 
 nav:
   - Apresentação: index.md
+  - Atas :
+    - Ata 1: Atas/ata1.md
+  -  Planejamento : 
+      - Ferramentas: Planejamento/Ferramentas.md
+      - Metodologia: Planejamento/Metodologia.md
+      - Cronograma: Planejamento/Cronograma.md
+  -  Atividades Desenvolvidas:
+      - AtividadesDesenvolvidas: Atividades.md
+  -  Bibliografia:
+      - Bibliografia: Bibliografia.md
